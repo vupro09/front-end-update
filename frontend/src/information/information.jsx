@@ -156,6 +156,29 @@ const Information = () => {
             </option>
           </select>
         </div>
+
+        {/* Mật khẩu */}
+        <div style={{ marginBottom: 32 }}>
+          <label style={{ fontWeight: 600, fontSize: 18 }}>
+            Mật khẩu <span style={{ color: "red" }}>(*)</span>
+          </label>
+          <input
+            type="password"
+            placeholder="Nhập mật khẩu"
+            style={{
+              width: "100%",
+              marginTop: 8,
+              padding: "12px 16px",
+              borderRadius: 8,
+              border: "1px solid #cfd8dc",
+              fontSize: 16,
+              color: "#b0b0b0",
+              fontStyle: "italic",
+              outline: "none",
+            }}
+          />
+        </div>
+
         {/* Nút điều hướng */}
         <div style={{ display: "flex", justifyContent: "space-between", marginTop: 40 }}>
           <button
